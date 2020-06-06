@@ -1,0 +1,88 @@
+body{
+	background: linear-gradient(to right,#15205C,black);
+}
+
+/* Navbar Customization Starts here */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: linear-gradient(to right,#15205C,black);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+/*Navbar Customization Ends Here*/
+
+
+/*Grid Editing starts here*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 10.5fr 35.5fr 15.7fr 0.3fr;
+  gap: 0px 0px;
+  grid-template-areas: "Header Header Header" "Infor Infor Infor" "Footer1 Footer2 Footer3" "space space space";
+}
+
+.Infor { grid-area: Infor; 
+background-color: white;}
+
+.Header { grid-area: Header; 
+background-color: linear-gradient(to right,#15205C,black);
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+letter-spacing: -0.015em;
+
+color: #FEFEFE;}
+
+.Footer1 { grid-area: Footer1;
+background-color:  #020617; }
+
+
+.Footer2 { grid-area: Footer2; 
+background-color: #020617;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 32px;
+
+
+
+color: #FFFFFF;
+}
+
+.Footer3 { grid-area: Footer3; 
+font-family: Roboto;
+font-style: normal;
+
+font-size: 16px;
+line-height: 32px;
+
+
+
+color: #FFFFFF;
+background-color:  #020617;}
+
+
+.space { grid-area: space;
+background-color:  #020617; }

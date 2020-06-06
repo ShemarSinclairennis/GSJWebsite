@@ -1,0 +1,487 @@
+body {
+    padding-top: 5rem;
+    background: linear-gradient(72.39deg, #15205C 53.98%, #141414 102.08%);
+}
+
+/************************** HEADER *************************************/
+.extra-space{
+    padding-left: 3rem;
+}
+
+.bg-primaryV2{
+  background: linear-gradient(72.39deg, #15205C 53.98%, #141414 102.08%);
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  font-weight: 600;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #4790E4;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.fixed-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #4790E4;
+}
+
+
+
+/***************************** FOOTER *****************************************/
+footer{
+  background: #020617;
+}
+
+.text-uppercase{
+  color: rgb(223, 225, 233);
+}
+
+.list-unstyled{
+  color: rgb(223, 225, 233);
+  line-height: 2rem;
+}
+.footer-copyright{
+  color: rgb(111, 119, 151);
+}
+
+
+/*********************** MAIN TITLE OF PAGES ************************/
+.containers {
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+@media (min-width: 1200px) {
+.containers {
+  width: 100%
+}
+}
+
+.page-header{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.015em;
+  color: rgb(246, 247, 252);
+  padding-bottom: 3.5rem;
+  padding-left: 6.4rem;
+
+}
+
+.sub-header{
+  font-weight: lighter;
+  font-size: 28px;
+  letter-spacing: -0.015em;
+  color: rgb(246, 247, 252);
+  padding-bottom: 4rem;
+  padding-left: 0.5rem;
+
+}
+
+.decor{
+  position: absolute;
+  width: 120px;
+  height: 87px;
+  left: 238px;
+  top: 70px;
+  background: #FFFFFF;
+  opacity: 0.1;
+}
+
+
+/********************** ABOUT PAGE **************************/
+.content{
+  background-color: white;
+  padding: 3rem 10rem;
+  color: #3A3B4F;
+  
+}
+
+
+.paragraph{
+  margin-top: 2rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 32px;
+  font-weight: 500;
+
+
+  letter-spacing: -0.015em;
+
+  color: rgb(100, 101, 116);
+
+}
+
+.paraSpace{
+  margin-top: 3rem;
+}
+
+.image{
+  position: relative;
+}
+
+@media (min-width: 576px) {
+  .stdImg{
+    margin-top: 4rem;
+    position: absolute;
+    width: 56%;
+    height: 36%;
+  }
+}
+
+@media (min-width: 768px) {
+  .stdImg{
+    margin-top: 4rem;
+    position: absolute;
+    width: 100%;
+    height: 30%;
+  }
+}
+
+@media (min-width: 992px) {
+  .stdImg{
+    margin-top: 4rem;
+    position: absolute;
+    width: 100%;
+    height: 46%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .stdImg{
+    margin-top: 4rem;
+    position: absolute;
+    width: 94%;
+    height: 75%;
+  }
+}
+
+
+.decor2{
+  height:50%;
+  width: 50%;
+  background: linear-gradient(210.97deg, #5564E4 22.74%, #C6F5FF 80.72%);
+  position: absolute;
+  right: 0rem;
+  top: 3rem;
+}
+
+
+
+
+/****************************** COUNCIL PAGE ********************************/
+.content_header{
+  margin-left: 4rem ;
+}
+
+.members{
+  margin-left: 6rem;
+}
+
+.council{
+  position: relative;
+  width: 76%;
+  height: 82%;
+  border-radius: 6px;
+}
+
+.padding-0{
+  padding-right: 0;
+  padding-left: 0;
+  position: relative;
+}
+
+.decor3{
+  height: 50%;
+  width: 50%;
+  background: linear-gradient(144.64deg, #000B67 2.63%, #8AE9FE 74.13%);
+opacity: 0.5;
+  position: absolute;
+  left: -0.9rem;
+  top: -0.9rem;
+}
+
+.decor4{
+  height: 50%;
+  width: 50%;
+  background: linear-gradient(29.41deg, #000B67 32.49%, #23B0CF 61.98%);
+  opacity: 0.5;
+  position: absolute;
+  left: -0.9rem;
+  bottom: 2.5rem;
+}
+
+.decor5{
+  height: 50%;
+  width: 50%;
+  background: linear-gradient(318.12deg, #000B67 27.51%, #23B0CF 64.66%);
+  opacity: 0.5;
+  position: absolute;
+  right: 4rem;
+  bottom: 2.5rem;
+}
+
+
+.mylabel{
+  background-color: black;
+  border: 1px solid black;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  padding: 0.6rem 1rem;
+  width: 76%;
+  position: absolute;
+  right: 4.8rem;
+  bottom: 3.4rem;
+  color: white;
+  opacity: 0.6;
+  text-align: center;
+}
+
+
+/******************* COUNCIL MEMBER PAGE ******************************/
+.individual{
+  width: 100%;
+  height: 65%;
+  /* border-radius: 6px; */
+  position: relative;
+  margin-top: 1rem;
+}
+
+.decor6{
+  margin-top: 1rem;
+  height: 47%;
+  width: 70%;
+  background: linear-gradient(74.97deg, #5564E4 30.37%, #23B0CF 72.56%);
+  opacity: 0.5;
+  position: absolute;
+  left: 0rem;
+  top: -0.7rem;
+}
+
+.content_header2{
+  margin-top:1rem;
+  line-height: 2.1rem;
+}
+
+.paragraph.abt{
+  line-height: 1.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.social_media{
+  padding-right: 0.7rem;
+  width: 5%;
+  height:5%;
+  padding-top: 1rem;
+}
+
+.dot{
+  height: 10px;
+  width: 10px;
+  background-color: rgb(64, 217, 255);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.study{
+  margin-top: 1rem;
+}
+
+.abt{
+  margin-top: 1rem;
+  line-height: 2rem;
+}
+
+/********************** ABOUT PAGE **************************/
+
+
+.paragraph_mem{
+  margin-left: 14rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 32px;
+  font-weight: 500;
+  letter-spacing: -0.015em;
+
+  color: rgb(100, 101, 116);
+
+
+}
+.mem_subtitle{
+  margin-left: 14rem;
+}
+
+.paragraph_mem_end{
+  margin-left: 14rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  font-family: Roboto;
+font-style: italic;
+font-weight: normal;
+font-size: 16px;
+line-height: 32px;
+/* or 200% */
+
+letter-spacing: -0.015em;
+text-transform: capitalize;
+color: #696969;
+}
+
+
+
+/*Tabs to assist n design*/
+.tab-1{
+  display:inline-block; width:80px;
+}
+.tab-2{
+  display:inline-block; width:50px;
+}
+.tab-3{
+  display:inline-block; width:25px;
+}
+.tab-4{
+  display:inline-block; width:20px;
+}
+.tab-5{
+  display:inline-block; width:38px;
+}
+
+/*Tile layout pattern*/
+.tile_layout{
+  margin-left: 8rem;
+  display: grid;
+  grid-template-columns:0.2fr 1fr 1fr ;
+  grid-template-rows: 1fr;
+  grid-gap: : 1px 1px;
+  grid-template-areas: "m_tile0 m_tile1 m_tile2";
+}
+
+
+/*Tiles being used in design */
+
+}
+.m_tile0{
+   grid-area: m_tile0;
+  background-color: #F3F2FF;;
+  width: 360px;
+  height: 400px;
+  top: 400px;
+
+}
+.m_tile1{
+  grid-area: m_tile1;
+  background-color: #F3F2FF;;
+  width: 360px;
+  height: 400px;
+  top: 400px;
+}
+.m_tile2{
+  grid-area: m_tile2;
+  background-color: #F3F2FF;;
+  width: 360px;
+  height: 400px;
+ 
+
+  top: 400px;
+}
+
+
+/*Tile Contents*/
+.steptitle{
+  margin-top: 0.5rem;
+  color: #BDBDBD;
+   font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 32px;
+text-align: center;
+
+
+}
+
+.secondline{
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 160% */
+  color: #ABABAB;
+}
+
+.thirdline{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #3A3B4F;
+  text-align: center;
+}
+.fourthline{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 32px;
+text-align: center;
+/* or 200% */
+ color: #858585;
+}
+
+.prices{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 32px;
+/* or 200% */
+ color: #858585;
+}
+
+
+.form_button{
+  margin-top: 2rem;
+  margin-left: 5.5rem;
+  width: 192px;
+  height: 35px;
+
+
+  background: linear-gradient(128.34deg, #02D1FF -290.38%, #FF5FDC 302.21%);
+  opacity: 0.8;
+  text-align: center;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 32px;
+  /* identical to box height, or 178% */
+
+  letter-spacing: -0.015em;
+  text-transform: capitalize;
+
+  color: #FFFFFF;
+}
+
