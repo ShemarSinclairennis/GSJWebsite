@@ -1,5 +1,41 @@
 
-<?php  ?>
+<?php  
+	include "connect.php";
+	
+ if(isset($_POST['submit'])) {
+
+
+	$title = $_POST["title_name"];
+	$fname = $_POST["first-name"];
+	$lname = $_POST["last-name"];
+	$org = $_POST["org"];
+	$add = $_POST["street"] . ", " . $_POST["parish"] . ", " . $_POST["country"];
+	$pos = $_POST["position"];
+	$phone = $_POST["phone"];
+	$fax = "18888888888";
+	$email = $_POST["your_email"];
+	$interest = $_POST["interest"];
+	$status = "active";
+	$payment = "cash";
+	// Create connection
+	// $conn = new mysqli("localhost", "root", "shak", "gsweb");
+	// $conn = new mysqli($servername, $username, $password, $dbname);
+	// Check connection
+	if ($conn->connect_error) {
+	die("Connection failed: " . $conn->connect_error);
+	}
+	$sql = "INSERT INTO members VALUES ('$title', '$fname', '$lname', '$org', '$add', '$pos', '$phone', '$fax', '$email', '$interest', '$status', '$payment')";
+
+	if ($conn->query($sql) === TRUE) {
+	echo "New record created successfully";
+	} else {
+	echo "Error: " . $sql . "<br>" . $conn->error;
+	}
+
+	$conn->close();
+}
+
+?>
 <head>
 	<meta charset="utf-8">
 	<title>form-v1 by Colorlib</title>
@@ -15,7 +51,7 @@
 	<div class="page-content">
 		<div class="form-v1-content">
 			<div class="wizard-form">
-		        <form class="form-register" action="#" method="post">
+		        <form class="form-register" action="" method="post">
 		        	<div id="form-total">
 		        		<!-- SECTION 1 -->
 			            <h2>
@@ -182,7 +218,7 @@
 			            </section>
 		        	</div>
 
-		        	<button type="submit">Submit</button>
+		        	<button type="submit" name="submit" value="Submit">Submit</button>
 		        </form>
 			</div>
 		</div>
@@ -191,4 +227,3 @@
 	<script src="js/jquery.steps.js"></script>
 	<script src="js/main.js"></script>
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
-<?php ?>
